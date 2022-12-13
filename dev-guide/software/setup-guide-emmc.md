@@ -4,11 +4,11 @@ description: This is work in progress - derived from Gerald's notes
 
 # Setup guide - eMMC
 
-
+<\<ToDO - compare also with this [pre-existing link](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)   [https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc](https://nxp.gitbook.io/8mpnavq/navq+-user-guide/preprodution-quickstart-guide/flashing-with-new-firmware#flashing-the-emmc)>>
 
 ## Install ubuntu image &#x20;
 
-The NavQplus firmware is preferrably installed on eMMC for reliability reasons. \
+The NavQplus firmware is preferably installed on eMMC for reliability reasons specifically when flying a drone. There is some potential for an SDCard to vibrate it's physical connections. However it may be convenient during development to use the SDCard \
 \
 Follow [https://iroboteducation.github.io/create3\_docs/setup/navqplus/](https://iroboteducation.github.io/create3\_docs/setup/navqplus/) \
 (TODO: copy these instructions here.)
@@ -26,7 +26,7 @@ Once you have downloaded UUU, find the [boot switches](https://iroboteducation
 
 Then, connect NavQ+ to your computer using the leftmost (USB 1) USB-C® port and the two flash status light should light up as shown in the image. &#x20;
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20;
 
@@ -34,7 +34,7 @@ Run the following command to make sure that the NavQ+ is recognized by UUU:&#x20
 ./uuu[.exe] -lsusb 
 ```
 
-``<img src="../../.gitbook/assets/image.png" alt="" data-size="original">``
+``<img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">``
 
 You should see that there is a device detected. If so, you can continue flashing. To flash your board, use the command below:&#x20;
 
